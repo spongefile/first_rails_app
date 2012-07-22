@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  clienttype: MyString
+  roomname: MyString
+  playername: MyString
+  login: MyString
+  primarycolors: MyString
+
+two:
+  clienttype: MyString
+  roomname: MyString
+  playername: MyString
+  login: MyString
+  primarycolors: MyString

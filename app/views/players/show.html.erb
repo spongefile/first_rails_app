@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Clienttype:</b>
+  <%= @player.clienttype %>
+</p>
+
+<p>
+  <b>Roomname:</b>
+  <%= @player.roomname %>
+</p>
+
+<p>
+  <b>Playername:</b>
+  <%= @player.playername %>
+</p>
+
+<p>
+  <b>Login:</b>
+  <%= @player.login %>
+</p>
+
+<p>
+  <b>Primarycolors:</b>
+  <%= @player.primarycolors %>
+</p>
+
+
+<%= link_to 'Edit', edit_player_path(@player) %> |
+<%= link_to 'Back', players_path %>
